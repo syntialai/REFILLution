@@ -1,0 +1,62 @@
+<resources>
+
+    <style name="Theme.Refillution" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Color -->
+        <item name="colorPrimary">@color/blue_0095DA</item>
+        <item name="colorOnPrimary">@color/white_FFFFFF</item>
+        <item name="colorPrimaryDark">@color/blue_dark_DE045F8A</item>
+        <item name="colorPrimaryContainer">@color/blue_light_2_DAF3FF</item>
+        <item name="colorOnPrimaryContainer">@color/black_high_DE000000</item>
+
+        <item name="colorSecondary">@color/blue_0095DA</item>
+        <item name="colorOnSecondary">@color/white_FFFFFF</item>
+        <item name="colorSecondaryContainer">@color/blue_light_2_DAF3FF</item>
+        <item name="colorOnSecondaryContainer">@color/black_high_DE000000</item>
+
+        <item name="colorTertiary">@color/orange_F37021</item>
+        <item name="colorOnTertiary">@color/white_FFFFFF</item>
+        <item name="colorTertiaryContainer">@color/orange_light_2_FEF5EB</item>
+        <item name="colorOnTertiaryContainer">@color/black_high_DE000000</item>
+
+        <item name="colorError">@color/red_dark_B72424</item>
+        <item name="colorErrorContainer">@color/red_light_1_F7A1A1</item>
+        <item name="colorOnError">@color/white_FFFFFF</item>
+        <item name="colorOnErrorContainer">@color/black_high_DE000000</item>
+
+        <item name="android:colorBackground">@color/white_FFFFFF</item>
+        <item name="colorOnBackground">@color/black_high_DE000000</item>
+        <item name="colorSurface">@color/white_FFFFFF</item>
+        <item name="colorOnSurface">@color/black_high_DE000000</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/white_FFFFFF</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+
+        <!-- Text appearance. -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Refillution.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Refillution.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.Refillution.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.Refillution.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Refillution.Subtitle1</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.Refillution.Subtitle2</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Refillution.Body1</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Refillution.Body2</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Refillution.Caption</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Refillution.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.Refillution.LabelMedium</item>
+
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textColor">@color/black_high_DE000000</item>
+
+        <!-- Shapes -->
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Refillution.LargeComponent</item>
+
+        <!-- Card View -->
+        <item name="cardViewStyle">@style/Widget.Refillution.CardView</item>
+        <item name="materialCardViewStyle">@style/Widget.Refillution.CardView</item>
+
+        <!-- Toolbar -->
+        <item name="toolbarStyle">@style/Widget.Refillution.Toolbar</item>
+    </style>
+</resources>

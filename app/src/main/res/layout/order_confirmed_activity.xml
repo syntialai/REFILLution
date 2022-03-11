@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_blue_gradient"
+    android:orientation="vertical"
+    tools:context=".features.order.view.OrderConfirmedActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/t_order_confirmed"
+        style="@style/Widget.Refillution.Toolbar.Transparent.OnPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/your_order"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_qr_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_24"
+        android:clickable="false"
+        app:cardElevation="@dimen/dp_8"
+        app:layout_constraintTop_toBottomOf="@id/t_order_confirmed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/dp_24"
+            android:paddingVertical="@dimen/dp_32">
+
+            <TextView
+                android:id="@+id/tv_qr_code_info"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_16"
+                android:text="Tunjukkan QR Code ini pada driver untuk menyelesaikan pesanan"
+                android:textAlignment="center"
+                android:textAppearance="?attr/textAppearanceBodyLarge"
+                android:textColor="@color/black_medium_99000000"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_order_id"
+                android:layout_width="@dimen/dp_0"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_24"
+                android:text="Order #1"
+                android:textAlignment="center"
+                android:textAppearance="?attr/textAppearanceTitleLarge"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/tv_qr_code_info"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/iv_qr_code"
+                android:layout_width="@dimen/dp_200"
+                android:layout_height="@dimen/dp_200"
+                android:layout_marginVertical="@dimen/dp_8"
+                android:adjustViewBounds="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_order_id"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_marginTop="@dimen/dp_56"
+        android:background="@drawable/shape_rounded_top_shadow"
+        android:elevation="@dimen/dp_32"
+        android:padding="@dimen/dp_24"
+        app:layout_constraintTop_toBottomOf="@id/cv_qr_code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_delivery"
+            android:layout_width="@dimen/dp_56"
+            android:layout_height="@dimen/dp_56"
+            app:tint="?attr/colorTertiary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_motorcycle" />
+
+        <TextView
+            android:id="@+id/tv_delivery_info"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:text="Akan tiba dalam 8 menit"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@id/iv_delivery"
+            app:layout_constraintBottom_toTopOf="@+id/tv_delivery_type"
+            app:layout_constraintStart_toEndOf="@id/iv_delivery"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/tv_delivery_type"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_4"
+            android:text="@string/kurir_bes"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="@color/black_medium_99000000"
+            app:layout_constraintTop_toBottomOf="@+id/tv_delivery_info"
+            app:layout_constraintStart_toEndOf="@id/iv_delivery"
+            app:layout_constraintBottom_toBottomOf="@id/iv_delivery" />
+
+        <Button
+            android:id="@+id/b_back"
+            style="@style/Widget.Refillution.Button.Tertiary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_24"
+            android:text="@string/view_detail"
+            app:layout_constraintBottom_toTopOf="@id/b_track"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/b_track"
+            style="@style/Widget.Refillution.Button.Outlined.Tertiary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_24"
+            android:text="@string/track_delivery"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

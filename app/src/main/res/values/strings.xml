@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Refillution</string>
+    <string name="deskripsi_produk">Deskripsi produk</string>
+    <string name="merk">Merk:</string>
+    <string name="kategori">Kategori:</string>
+    <string name="quantity">Jumlah:</string>
+    <string name="waktu_pengiriman">Waktu pengiriman:</string>
+    <string name="beli_sekarang">Beli sekarang</string>
+    <string name="checkout">Checkout</string>
+    <string name="pesan_antar">Pesan antar</string>
+    <string name="antar_ke">Antar ke</string>
+    <string name="syntia">Syntia</string>
+    <string name="my_address">Jl. Thamrin No. 75R, Kec. Medan Area, Kota Medan, Sumatera Utara</string>
+    <string name="deliver_within_time">Diantar pada pukul %s</string>
+    <string name="total_price">Total harga</string>
+    <string name="ongkos_kirim">Ongkos kirim</string>
+    <string name="pay">Bayar</string>
+    <string name="free">Gratis</string>
+    <string name="your_order">Pesanan Anda</string>
+    <string name="kurir_bes">Kurir BES</string>
+    <string name="view_detail">Lihat detail</string>
+    <string name="track_delivery">Lacak pengiriman</string>
+    <string name="location_info_description">Produk yang ditampilkan disesuaikan dengan lokasimu saat ini.</string>
+    <string name="order_completed">Pesanan selesai</string>
+    <string name="thank_you">Terima kasih!</string>
+    <string name="pesananmu_telah_selesai">Pesananmu telah selesai.\nPastikan refill-mu sesuai dengan orderan, ya</string>
+    <string name="back_to_dashboard">Kembali ke Dashboard</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Refillution.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">600</item>
+        <item name="android:textSize">@dimen/sp_32</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">@dimen/sp_28</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textSize">@dimen/sp_24</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">600</item>
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.Subtitle1" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.Subtitle2" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.Body1" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.Body2" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:fontFamily">@font/source_sans_pro_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="TextAppearance.Refillution.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:fontFamily">@font/source_sans_pro_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textFontWeight">500</item>
+        <item name="android:textSize">@dimen/sp_10</item>
+    </style>
+</resources>
